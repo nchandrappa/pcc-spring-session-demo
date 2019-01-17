@@ -1,0 +1,7 @@
+---
+applications:
+- name: pcc-spring-session-demo
+  random-route: true
+  path: target/pcc-spring-session-demo-0.0.1-SNAPSHOT.jar
+  services:
+  - pcc-session-cluster
